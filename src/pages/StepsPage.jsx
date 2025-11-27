@@ -61,8 +61,8 @@ export function StepsPage() {
   const steps = [
     {
       number: 1,
-      title: 'Pripremi potrebne dokumente',
-      description: 'Sakupi svu potrebnu dokumentaciju prije odlaska u banku.',
+      title: 'Pripremite potrebnu dokumentaciju',
+      description: 'Sakupite svu potrebnu dokumentaciju prije odlaska u banku.',
       icon: FileText,
       color: 'from-blue-500 to-cyan-500',
       iconBg: 'linear-gradient(135deg, var(--color-primary-100), var(--color-primary-200))',
@@ -70,76 +70,76 @@ export function StepsPage() {
       glowColor: 'rgba(59, 130, 246, 0.3)',
       details: [
         'Lična karta ili pasoš',
-        'Rješenje o naknadi (invalidnina, materijalno obezbjeđenje, itd.)',
-        'Dokaz o adresi stanovanja (račun za struju ili vodu)',
-        'JMBG (Jedinstveni matični broj građana)'
+        'Rješenje o naknadi (dodatak za njegu i pomoć, lična invalidnina, materijalno obezbjeđenje, itd.)',
+        'Mjesto prebivališta',
+        'Matični broj - JMBG'
       ],
       tips: [
-        'Napravi kopije svih dokumenata za svoju evidenciju',
-        'Provjeri da su dokumenti važeći i nije im istekao rok'
+        'Napravite kopije dokumentacije za svoju evidenciju',
+        'Provjerite da su dokumenti važeći i nije im istekao rok'
       ]
     },
     {
       number: 2,
-      title: 'Idi u banku i zatraži osnovni platni račun',
-      description: 'Posjeti šalter banke i jasno reci šta ti treba.',
+      title: 'Idite u banku i zatražite osnovni račun',
+      description: 'Posjetite filijalu banke i jasno recite šta želite.',
       icon: CreditCard,
       color: 'from-purple-500 to-pink-500',
       iconBg: 'linear-gradient(135deg, var(--color-secondary-100), var(--color-secondary-200))',
       iconColor: 'var(--color-secondary-600)',
       glowColor: 'rgba(168, 85, 247, 0.3)',
       details: [
-        'Pitaj za "osnovni platni račun" - to je najjeftinija opcija',
-        'Objasni da primaš socijalnu naknadu ili invalidninu',
-        'Pitaj o svim troškovima - nema skrivenih naknada',
-        'Zatraži da ti objasne svaku stavku u ugovoru'
+        'Pitajte za "osnovni platni račun"',
+        'Objasnite da primate socijalnu naknadu ili invalidninu',
+        'Pitajte o svim troškovima (bez skrivenih troškova)',
+        'Zatražite da vam objasne svaku stavku u ugovoru'
       ],
       tips: [
-        'Ne potpisuj ništa ako ne razumiješ',
-        'Možeš povesti nekoga sa sobom za podršku',
-        'Zatraži pisani pregled svih troškova'
+        'Ne potpisujte ništa ako ne razumiješ',
+        'Možteš povesti nekoga sa sobom za podršku',
+        'Zatražite pisani pregled svih troškova'
       ]
     },
     {
       number: 3,
-      title: 'Potpiši ugovor i aktiviraj račun',
-      description: 'Nakon što razumiješ sve uslove, potpiši ugovor.',
+      title: 'Potpišite ugovor i aktivirajte račun',
+      description: 'Nakon što razumijete sve uslove, potpisujete ugovor.',
       icon: UserCheck,
       color: 'from-green-500 to-emerald-500',
       iconBg: 'linear-gradient(135deg, var(--color-accent-100), var(--color-accent-200))',
       iconColor: 'var(--color-accent-600)',
       glowColor: 'rgba(34, 197, 94, 0.3)',
       details: [
-        'Pročitaj cijeli ugovor prije potpisivanja',
-        'Zatraži kopiju ugovora za sebe',
-        'Dobiješ broj računa (IBAN)',
-        'Postavi PIN kod za karticu (ako dobijaš karticu)'
+        'Pročitajte cijeli ugovor prije potpisivanja',
+        'Zatražite kopiju ugovora za sebe',
+        'Tražite broj žiro računa',
+        'Postavite PIN kod za karticu (ako dobijate karticu)'
       ],
       tips: [
-        'Zapamti ili zapiši svoj PIN negdje sigurno',
-        'Nikada ne dijeli PIN ni sa kim - ni sa bankarom!',
-        'Zadrži svu dokumentaciju na sigurnom mjestu'
+        'Zapamtite ili zapišite svoj PIN negdje sigurno',
+        'Nikada ne dijelite PIN ni sa kim, čak ni sa bankarom!',
+        'Čuvajte svu dokumentaciju na sigurnom mjestu'
       ]
     },
     {
       number: 4,
-      title: 'Dostavi broj računa instituciji',
-      description: 'Obavijesti instituciju koja ti isplaćuje naknadu o novom računu.',
+      title: 'Dostavite broj računa nadležnoj instituciji',
+      description: 'Obavijestite instituciju koja vam isplaćuje naknadu o novom računu.',
       icon: CheckCircle,
       color: 'from-orange-500 to-amber-500',
       iconBg: 'linear-gradient(135deg, var(--color-warning-100), var(--color-warning-200))',
       iconColor: 'var(--color-warning-600)',
       glowColor: 'rgba(245, 158, 11, 0.3)',
       details: [
-        'Idi u instituciju koja ti isplaćuje naknadu (Centar za socijalni rad, Fond PIO, itd.)',
-        'Dostavi im broj svog računa (IBAN)',
-        'Pitaj kada možeš očekivati prvu uplatu',
-        'Zatraži potvrdu o prijemu dokumentacije'
+        'Idite u nadležnu instituciju koja vam isplaćuje naknadu (Centar za socijalni rad, Fond PIO, itd.)',
+        'Predajte im broj svog žiro računa',
+        'Pitajte kada možete očekivati prvu uplatu',
+        'Zatražite potvrdu o prijemu dokumentacije'
       ],
       tips: [
-        'Prvo plaćanje može potrajati, budi strpljiv',
-        'Redovno provjeri stanje računa',
-        'Čuvaj sve potvrde o obrađenim zahtjevima'
+        'Prvo plaćanje može potrajati, budite strpljiv',
+        'Redovno provjerite stanje računa',
+        'Čuvajte sve potvrde o obrađenim zahtjevima'
       ]
     }
   ];
@@ -209,7 +209,7 @@ export function StepsPage() {
       link.click();
     } catch (error) {
       console.error('Error exporting:', error);
-      alert('Greška pri exportu. Pokušaj ponovo.');
+      alert('Greška pri preuzimanju. Pokušajte ponovo.');
     } finally {
       setIsExporting(false);
     }
@@ -281,7 +281,7 @@ export function StepsPage() {
       // Convert canvas to blob
       canvas.toBlob(async (blob) => {
         if (!blob) {
-          alert('Greška pri kreiranju slike. Pokušaj ponovo.');
+          alert('Greška pri kreiranju slike. Pokušajte ponovo.');
           return;
         }
 
@@ -294,7 +294,7 @@ export function StepsPage() {
               await navigator.share({
                 files: [file],
                 title: 'FinSim - Koraci za otvaranje računa',
-                text: 'Pogledaj korake za otvaranje osnovnog platnog računa'
+                text: 'Pogledajte korake za otvaranje osnovnog računa'
               });
             } else {
               // Fallback: copy link to clipboard
@@ -323,7 +323,7 @@ export function StepsPage() {
     navigator.clipboard.writeText(url).then(() => {
       alert('Link kopiran u clipboard! Možeš ga podijeliti sa drugima.');
     }).catch(() => {
-      alert('Greška pri kopiranju linka. Pokušaj ponovo.');
+      alert('Greška pri kopiranju linka. Pokušajte ponovo.');
     });
   };
 
@@ -364,14 +364,14 @@ export function StepsPage() {
             lineHeight: 1.7,
             animationDelay: '0.2s'
           }}>
-            Slijedi ove jednostavne korake da bezbjedno otvoriš osnovni platni račun i počneš primati svoju naknadu.
+            Slijedi ove jednostavne korake da bezbjedno otvorite osnovni platni račun i počnete primati svoju naknadu.
           </p>
         </div>
 
         {/* Video Player Section */}
         <VideoPlayer 
           title="Video vodič: Kako otvoriti račun?" 
-          description="Pogledaj detaljan video koji objašnjava sve korake za otvaranje osnovnog platnog računa"
+          description="Pogledajte detaljan video koji objašnjava sve korake za otvaranje osnovnog platnog računa"
         />
 
         {/* Steps Timeline */}
@@ -590,7 +590,7 @@ export function StepsPage() {
                 marginBottom: 'var(--spacing-6)',
                 lineHeight: 1.7
               }}>
-                Sačuvaj ili odštampaj ovaj podsjetnik da uvijek imaš važne informacije pri ruci.
+                Sačuvajte ili odštampajte ovaj podsjetnik da uvijek imate važne informacije pri ruci.
               </p>
 
               <div style={{
@@ -629,7 +629,7 @@ export function StepsPage() {
                     margin: 0,
                     lineHeight: 1.5
                   }}>
-                    Lična karta, rješenje o naknadi, dokaz o adresi
+                    Lična karta, rješenje o naknadi, matični broj
                   </p>
                 </div>
 
@@ -663,7 +663,7 @@ export function StepsPage() {
                     margin: 0,
                     lineHeight: 1.5
                   }}>
-                    "Osnovni platni račun" - najjeftinija opcija
+                    "Osnovni platni račun"
                   </p>
                 </div>
               </div>
@@ -684,12 +684,12 @@ export function StepsPage() {
                       <div className="animate-spin">
                         <Download className="icon" />
                       </div>
-                      <span>Izvoz...</span>
+                      <span>Preuzimanje...</span>
                     </>
                   ) : (
                     <>
                       <Download className="icon" />
-                      <span>Preuzmi sliku</span>
+                      <span>Preuzmite sliku</span>
                     </>
                   )}
                 </button>
@@ -699,7 +699,7 @@ export function StepsPage() {
                   className="btn btn-secondary no-print"
                 >
                   <Printer className="icon" />
-                  <span>Odštampaj</span>
+                  <span>Odštampajte</span>
                 </button>
 
                 <button
@@ -707,7 +707,7 @@ export function StepsPage() {
                   className="btn btn-outline no-print"
                 >
                   <Share2 className="icon" />
-                  <span>Podijeli</span>
+                  <span>Podijelite</span>
                 </button>
               </div>
             </div>
