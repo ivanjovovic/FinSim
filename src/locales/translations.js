@@ -12,34 +12,34 @@ export const translations = {
     // Landing Page
     landing: {
       warning: {
-        title: 'Šta je ovaj sajt?',
-        description: 'FinSim je edukativna platforma za učenje o bankarstvu i finansijama. Sve informacije su simulacija i ne predstavljaju stvarne bankovne usluge.'
+        title: 'Da li ste znali?',
+        description: 'Preko 73.000 korisnika socijalnih davanja u Crnoj Gori nema otvoren bankovni račun, iako imaju pravo na besplatan osnovni račun'
       },
       hero: {
         badge: 'Vaš put ka finansijskoj pismenosti',
         title: 'Dobrodošli u FinSim',
-        subtitle: 'Interaktivna platforma za učenje',
-        description: 'Naučite kako otvoriti bankovni račun, razumjeti svoja prava i upravljati finansijama kroz interaktivne simulacije i praktične primjere.',
+        subtitle: 'Upoznajte šta je osnovni račun i koja su Vaša prava',
+        description: 'Naučite kako da otvorite osnovni račun, razumjete svoja prava i upravljate finansijama kroz interaktivne simulacije i praktične primjere upravljanja svojim novcem',
         cta: 'Započnite učenje'
       },
       videoIntro: {
         title: 'Uvod u FinSim',
-        description: 'Pogledajte ovaj kratki video da saznate kako funkcioniše FinSim platforma i kako možete početi sa učenjem'
+        description: 'Pogledajte ovaj kratki video da saznate kako funkcioniše FinSim platforma'
       },
       whyUse: {
         title: 'Zašto koristiti FinSim?',
-        subtitle: 'Edukativna platforma kreirana posebno za starije osobe i korisnike sa posebnim potrebama',
+        subtitle: 'Edukativna platforma kreirana posebno za osobe koje se nalaze u osjetljivoj finansijskoj situaciji i kojima bankarske usluge mogu biti prepreka umjesto podrške.',
         simple: {
           title: 'Jednostavno i razumljivo',
-          description: 'Veliki fontovi, jasne ikone i intuitivna navigacija prilagođena svima'
+          description: 'Intuitivna navigacija prilagođena svima.'
         },
         free: {
           title: 'Potpuno besplatno',
-          description: 'Bez skrivenih troškova, registracije ili pretplate. Pristupi odmah.'
+          description: 'Bez skrivenih troškova, registracije ili pretplate.'
         },
         safe: {
           title: 'Sigurna simulacija',
-          description: 'Nikakvi pravi podaci. Vježbaj bez straha i grešaka koliko god želiš.'
+          description: 'Vježbaj bez straha i grešaka koliko god želiš.'
         },
         accessible: {
           title: 'Dostupno svima',
@@ -51,26 +51,26 @@ export const translations = {
         },
         mobile: {
           title: 'Mobilno prilagođeno',
-          description: 'Radi na svim uređajima - telefon, tablet ili računar.'
+          description: 'Radi na svim uređajima: telefon, tablet ili računar.'
         }
       },
       cards: {
         profile: {
           title: 'Upoznaj svoj profil',
-          subtitle: 'Ko si i šta primaš',
-          description: 'Odredi svoj profil korisnika (invalidnina, dječiji dodatak, stariji korisnik) i saznaj koje su tvoje mjesečne primanja.',
+          subtitle: 'Odaberite svoj kategoriju',
+          description: 'Odredi svoj profil korisnik: minimalna zarada, dodatak za njegu, invalidnina, dječiji dodatak, nezaposlen.',
           action: 'Otvori'
         },
         rights: {
           title: 'Saznaj svoja prava',
           subtitle: 'Šta banka smije i ne smije',
-          description: 'Nauči koja prava imaš nad svojim platnim računom. Razumij šta banka može i ne može da uradi bez tvoje dozvole.',
+          description: 'Nauči koja prava imaš nad svojim platnim računom. Upoznaj se sa pravima šta banka može i ne može da uradi bez tvoje dozvole.',
           action: 'Otvori'
         },
         simulator: {
           title: 'Probaj simulator',
-          subtitle: 'Vježbaj sa lažnim novcem',
-          description: 'Simuliraj mjesečne troškove, planiraj budžet i nauči da upravljaš svojim primanjima. Potpuno sigurna okolina za učenje.',
+          subtitle: 'Rasporedi svoj novac',
+          description: 'Simuliraj mjesečne troškove, planiraj budžet i nauči da upravljaš svojim primanjima. Potpuno siguran teren za učenje.',
           action: 'Otvori'
         }
       },
@@ -80,11 +80,11 @@ export const translations = {
         button: 'Započni učenje'
       },
       features: {
-        title: 'Kako funkcionira FinSim?',
+        title: 'Kako funkcioniše FinSim?',
         subtitle: 'Tri koraka do finansijske pismenosti',
         learn: {
           title: 'Naučite korake',
-          description: 'Pratite detaljne upute kako otvoriti bankovni račun i koje dokumente su potrebni'
+          description: 'Pratite korake kako otvoriti račun i koji dokumenti su potrebni'
         },
         choose: {
           title: 'Odaberite profil',
@@ -92,7 +92,7 @@ export const translations = {
         },
         simulate: {
           title: 'Simulirajte troškove',
-          description: 'Kalkulišite mjesečne troškove i naučite kako upravljati budžetom'
+          description: 'Upišite mjesečne troškove i naučite kako upravljati budžetom'
         }
       },
       journey: {
@@ -111,20 +111,20 @@ export const translations = {
         },
         step3: {
           title: 'Vaša prava',
-          description: 'Razumijevanje prava korisnika bankarskih usluga',
-          action: 'Istražite prava',
+          description: 'Razumijevanje prava korisnika osnovnog platnog računa',
+          action: 'Upoznajte svoja prava',
           locked: 'Zahtijeva odabir profila'
         },
         step4: {
           title: 'Simulator troškova',
-          description: 'Naučite upravljati vašim budžetom',
+          description: 'Naučite upravljati svojim budžetom',
           action: 'Pokrenite simulator',
           locked: 'Zahtijeva odabir profila'
         }
       },
       education: {
         title: 'Edukativni sadržaj',
-        subtitle: 'Sve što trebate znati',
+        subtitle: 'Sve što trebate da znate',
         basics: {
           title: 'Osnove bankarstva',
           description: 'Razumijevanje osnovnih koncepata'
@@ -156,27 +156,27 @@ export const translations = {
 
     // Steps Page
     steps: {
-      title: 'Koraci za otvaranje računa u banci',
-      subtitle: 'Slijedi ove jednostavne korake da bezbjedno otvoriš osnovni platni račun i počneš primati svoju naknadu.',
+      title: 'Koraci za otvaranje osnovnog računa',
+      subtitle: 'Slijedi ove jednostavne korake da bezbjedno otvorite osnovni račun i počnete da primate svoju naknadu.',
       videoTitle: 'Video vodič: Kako otvoriti račun?',
-      videoDescription: 'Pogledaj detaljan video koji objašnjava sve korake za otvaranje osnovnog platnog računa',
+      videoDescription: 'Pogledaj detaljan video koji objašnjava sve korake za otvaranje osnovnog računa',
       step1: {
         title: 'Priprema dokumenata',
         description: 'Potrebna dokumenta',
         items: [
           'Lična karta ili pasoš',
-          'JMBG potvrda',
-          'Potvrda o prebivalištu',
-          'Dodatna dokumenta ako ste maloljetni ili strarac'
+          'Matični broj (JMBG)',
+          'Mjesto prebivališta',
+          'Dodatna dokumenta ako ste maloljetnik'
         ]
       },
       step2: {
         title: 'Dolazak u banku',
         description: 'Šta očekivati',
         items: [
-          'Dođite u najbližu poslovnicu',
-          'Zatražite otvaranje računa',
-          'Predajte potrebna dokumenta',
+          'Dođite u najbližu filijalu',
+          'Zatražite otvaranje osnovnog računa',
+          'Predajte potrebnu dokumentaciju',
           'Popunite obrazac za otvaranje računa'
         ]
       },
@@ -184,9 +184,9 @@ export const translations = {
         title: 'Proces otvaranja',
         description: 'Verifikacija i aktivacija',
         items: [
-          'Banka proverava dokumente',
+          'Banka provjerava dokumentaciju',
           'Potpisujete ugovor',
-          'Dobijate broj računa',
+          'Dobijate broj žiro računa',
           'Aktivacija internet bankarstva'
         ]
       },
@@ -197,7 +197,7 @@ export const translations = {
           'Preuzmite karticu nakon nekoliko dana',
           'Aktivirajte karticu u bankomatu',
           'Postavite PIN kod',
-          'Započnite korištenje računa'
+          'Započnite korišćenje računa'
         ]
       },
       cta: {
