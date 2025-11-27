@@ -9,22 +9,22 @@ export const stepsTranslations = {
       previousStep: 'Prethodni korak',
       nextStep: 'Sljedeći korak',
       step1: {
-        title: 'Pripremi potrebne dokumente',
-        description: 'Sakupi svu potrebnu dokumentaciju prije odlaska u banku.',
+        title: 'Pripremite potrebnu dokumentaciju',
+        description: 'Sakupite svu potrebnu dokumentaciju prije odlaska u banku.',
         items: [
           'Lična karta ili pasoš',
-          'Rješenje o naknadi (invalidnina, materijalno obezbjeđenje, itd.)',
-          'Dokaz o adresi stanovanja (račun za struju ili vodu)',
+          'Rješenje o naknadi (dodatak za njegu i pomoć, invalidnina, materijalno obezbjeđenje, itd.)',
+          'Dokaz o mjestu prebivališta',
           'JMBG (Jedinstveni matični broj građana)'
         ],
         tips: [
-          'Napravi kopije svih dokumenata za svoju evidenciju',
-          'Provjeri da su dokumenti važeći i nije im istekao rok'
+          'Napravite kopiju svih dokumenata za svoju evidenciju.',
+          'Provjerite da su dokumenti važeći i nije im istekao rok.'
         ]
       },
       step2: {
-        title: 'Idi u banku i zatraži osnovni platni račun',
-        description: 'Posjeti šalter banke i jasno reci šta ti treba.',
+        title: 'Idite u banku i zatražite osnovni platni račun',
+        description: 'Posjetite najbližu filijalu banke i jasno im recite šta vam treba.',
         items: [
           'Pitaj za "osnovni platni račun" - to je najjeftinija opcija',
           'Objasni da primaš socijalnu naknadu ili invalidninu',
@@ -32,56 +32,56 @@ export const stepsTranslations = {
           'Zatraži da ti objasne svaku stavku u ugovoru'
         ],
         tips: [
-          'Ne potpisuj ništa ako ne razumiješ',
-          'Možeš povesti nekoga sa sobom za podršku',
-          'Zatraži pisani pregled svih troškova'
+          'Ne potpisuj ništa ako ne razumiješ.',
+          'Možeš povesti nekoga sa sobom za podršku.',
+          'Zatraži pisani pregled svih troškova.'
         ]
       },
       step3: {
-        title: 'Potpiši ugovor i aktiviraj račun',
+        title: 'Potpiši ugovor i aktiviraj račun.',
         description: 'Nakon što razumiješ sve uslove, potpiši ugovor.',
         items: [
-          'Pročitaj cijeli ugovor prije potpisivanja',
-          'Zatraži kopiju ugovora za sebe',
-          'Dobiješ broj računa (IBAN)',
-          'Postavi PIN kod za karticu (ako dobijaš karticu)'
+          'Pročitajte cijeli ugovor prije potpisivanja.',
+          'Zatražite kopiju ugovora za sebe.',
+          'Tražite broj žiro računa.',
+          'Postavite PIN kod za karticu na bankomatu banke (ako dobijete karticu)'
         ],
         tips: [
-          'Zapamti ili zapiši svoj PIN negdje sigurno',
-          'Nikada ne dijeli PIN ni sa kim - ni sa bankarom!',
-          'Zadrži svu dokumentaciju na sigurnom mjestu'
+          'Zapamtite ili zapišite svoj PIN na sigurnom mjestu.',
+          'Nikada ne dijelite PIN ni sa kim, čak ni sa bankarom!',
+          'Čuvajte svu dokumentaciju na sigurnom mjestu.'
         ]
       },
       step4: {
-        title: 'Dostavi broj računa instituciji',
-        description: 'Obavijesti instituciju koja ti isplaćuje naknadu o novom računu.',
+        title: 'Dostavite broj računa',
+        description: 'Obavijeste instituciju koja vam isplaćuje naknadu o novom računu.',
         items: [
-          'Idi u instituciju koja ti isplaćuje naknadu (Centar za socijalni rad, Fond PIO, itd.)',
-          'Dostavi im broj svog računa (IBAN)',
-          'Pitaj kada možeš očekivati prvu uplatu',
-          'Zatraži potvrdu o prijemu dokumentacije'
+          'Idite u instituciju koja vam isplaćuje naknadu (Centar za socijalni rad, Fond PIO, itd.)',
+          'Dostavite im broj svog žiro računa.',
+          'Pitajte kada možeš očekivati prvu uplatu.',
+          'Zatražite potvrdu o prijemu dokumentacije.'
         ],
         tips: [
-          'Prvo plaćanje može potrajati, budi strpljiv',
-          'Redovno provjeri stanje računa',
-          'Čuvaj sve potvrde o obrađenim zahtjevima'
+          'Prvo plaćanje može potrajati, budite strpljivi',
+          'Redovno provjeravajte stanje računa.',
+          'Čuvajte sve potvrde o obrađenim zahtjevima.'
         ]
       },
       reminder: {
         title: 'Brzi podsjetnik',
-        description: 'Sačuvaj ili odštampaj ovaj podsjetnik da uvijek imaš važne informacije pri ruci.',
+        description: 'Sačuvajte ili odštampajte ovaj podsjetnik da uvijek imate važne informacije pri ruci.',
         documents: 'Dokumenti:',
-        documentsText: 'Lična karta, rješenje o naknadi, dokaz o adresi',
-        bankAsk: 'U banci traži:',
-        bankAskText: '"Osnovni platni račun" - najjeftinija opcija',
-        download: 'Preuzmi sliku',
-        print: 'Odštampaj',
-        share: 'Podijeli',
-        downloading: 'Izvoz...'
+        documentsText: 'Lična karta, rješenje o naknadi',
+        bankAsk: 'U banci tražite:',
+        bankAskText: '"Osnovni platni račun"',
+        download: 'Preuzmite sliku',
+        print: 'Odštampajte',
+        share: 'Podijelite',
+        downloading: 'Čuva se...'
       },
       navigation: {
         backHome: 'Nazad na početnu',
-        createProfile: 'Kreiraj svoj profil'
+        createProfile: 'Kreirajte svoj profil'
       }
     }
   },
